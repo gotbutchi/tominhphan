@@ -1,5 +1,5 @@
 const evilButton = document.getElementById('evil-button')
-const OFFSET = 80
+const OFFSET = 70
 
 evilButton.addEventListener('click', () => {
   alert('Nice Try')
