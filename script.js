@@ -22,7 +22,7 @@ document.addEventListener('mousemove', (e) => {
   }
 })
 
-function setButtonPosition(center, top) {
+function setButtonPosition(left, top) {
   const windowBox = document.body.getBoundingClientRect()
   const buttonBox = evilButton.getBoundingClientRect()
 
